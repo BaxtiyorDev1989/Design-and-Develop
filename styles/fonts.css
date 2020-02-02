@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'Montserrat Thin';
+    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);
+}
+@font-face{
+    font-family: 'Montserrat Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+@font-face{
+    font-family: 'Nunito Regular';
+    src: url(../fonts/Nunito/Nunito-Regular.ttf);
+}
+@font-face{
+    font-family: 'Work Sans Regular';
+    src: url(../fonts/Work_Sans/WorkSans-Regular.ttf);
+}
+@font-face{
+    font-family: 'MyRiadPro Regular';
+    src: url(../fonts/MyriadPro/MyriadProRegular.ttf);
+}
+@font-face{
+    font-family: 'Pe-icon 7 stroke Regular';
+    src: url(../iconpe7stroke/fonts/Pe-icon-7-stroke.ttf);
+}
+@font-face{
+    font-family: 'Roboto Medium';
+    src: url(../fonts/RobotoMedium/Roboto-Medium.ttf);
+}
+
+
+

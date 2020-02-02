@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_container {
+    background-color: white;
+}
+
+.nav_link {
+    padding-right: 32px;
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_box1 {
+    padding-top: 17px;
+    padding-bottom: 18px;
+
+}
+
+.header_menu {
+    margin-bottom: 0;
+}
+
+.nav_link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+
+.header_box2 {
+    background-color: #323232;
+    padding-top: 115px;
+    padding-bottom: 112px;
+}
+
+.header_title h1 {
+    font-family: 'Montserrat Medium';
+    font-size: 62px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.header_title p {
+    font-family: 'Nunito Regular';
+    color: #ffffff;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header_box3 {
+    background-color: #007d2f;
+    padding-top: 62px;
+    padding-bottom: 102px;
+}
+
+.pe-7s-portfolio {
+    font-size: 49px;
+    color: white;
+}
+
+.pe-7s-clock {
+    font-size: 49px;
+    color: white;
+}
+
+.pe-7s-star {
+    font-size: 49px;
+    color: white;
+}
+
+.pe-7s-like {
+    font-size: 49px;
+    color: white;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards h5 {
+    text-align: center;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.cards p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat Medium';
+    margin: 0;
+}
+
+.main_img img {
+    width: 100%;
+}
+
+.main_text1 {}
+
+.main_text1 h2 {
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    color: #000000;
+    text-transform: unset;
+    margin-bottom: 39px;
+}
+
+.main_text1 p {
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    color: #666666;
+    text-transform: unset;
+    line-height: 24px;
+}
+
+.sign {
+    width: max-content;
+    margin-top: 37px;
+}
+
+.pic_box {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-box {
+    padding-left: 110px;
+    background-color: #f5f5f5;
+
+}
+
+.main_text2 {
+    padding-top: 103px;
+    padding-bottom: 100px;
+}
+
+.main_text2 h3 {
+    font-family: 'Montserrat Medium';
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 35px;
+}
+
+.main_text2 p {
+    color: #666666;
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 38px;
+    text-align: center;
+
+}
+
+.btn {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #006633;
+    border-radius: 0;
+    padding: 22px 40px 22px 43px;
+
+}
+
+.footer_content {
+    background-color: #000000;
+    padding-top: 99px;
+    padding-bottom: 103px;
+    padding-left: 129px;
+    padding-right: 128px;
+}
+
+.footer_content h6 {
+    font-family: 'Montserrat Medium';
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.footer_content p {
+    font-family: 'MyRiadPro Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text p {
+    font-family: 'Nunito Regular';
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.footer_text span {
+    font-family: 'Work Sans Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text2 p {
+    font-family: 'Nunito Regular';
+    font-size: 15px;
+    color: #bcbcbc
+}

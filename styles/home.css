@@ -1,0 +1,115 @@
+@import 'fonts.css';
+*{margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+
+}
+header{
+    background-color: white;
+}
+.nav_link{
+    margin-right: 27px;
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.nav_link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+.navbox1{
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+.header_menu{
+    margin-bottom: 0;
+}
+
+.header_title{
+    background-color: #007d2f;
+    padding-bottom: 97px;
+    padding-top: 110px;
+}
+.header_title h1{
+    font-family:'Montserrat Medium' ;
+    font-size: 30px;
+    color: #191919;
+    margin-bottom: 32px;
+}
+.header_title p{
+    font-family: 'Roboto Medium';
+    font-size: 17px;
+    color: #fefefe;
+    line-height: 26px;
+    text-align: center;
+}
+.pictures img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    
+}
+.pictures {
+    position: relative;
+}
+
+.pictures span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.pictures span:hover {
+    opacity: 1;
+    background:rgb(70, 140, 95, 0.6);
+}
+.pe-7s-look {
+    font-size: 48px;
+    color: #ffffff;
+}
+.footer_content {
+    background-color: #000000;
+    padding-top: 99px;
+    padding-bottom: 103px;
+    padding-left: 129px;
+    padding-right: 128px;
+}
+
+.footer_content h6 {
+    font-family: 'Montserrat Medium';
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.footer_content p {
+    font-family: 'MyRiadPro Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text p {
+    font-family: 'Nunito Regular';
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.footer_text span {
+    font-family: 'Work Sans Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text2 p {
+    font-family: 'Nunito Regular';
+    font-size: 15px;
+    color: #bcbcbc
+}

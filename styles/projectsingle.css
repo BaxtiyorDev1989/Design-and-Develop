@@ -1,0 +1,177 @@
+@import 'fonts.css';
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_container {
+    background-color: white;
+}
+
+.nav_link {
+    padding-right: 32px;
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_box1 {
+    padding-top: 17px;
+    padding-bottom: 18px;
+
+}
+
+.header_menu {
+    margin-bottom: 0;
+}
+
+.nav_link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+.slider{
+    background-color: #f6f6f6;
+}
+
+.carousel-caption{
+    bottom: 0;
+    top: 105px;
+    left: 2%;
+}
+.address-list{
+    margin-top: 59px;
+    
+}
+.slider__description{
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    color: #787878;    
+}
+.slider__title{
+    font-family: 'Montserrat Medium';
+    font-size: 38px;
+    text-transform: capitalize;
+    color: #171717;
+    margin-bottom: 33px;
+}
+.slider__contacts{
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    color: #787878;
+}
+.slider__contacts span{
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    font-weight: bold;    
+    color: #171717 ;
+}
+.slider-controls{
+    padding-top: 42px;
+    padding-bottom: 100px;
+    background-color:green;
+}
+ .slider__pic {
+    position: relative;
+    right: -580px;    
+} 
+.slider_column{
+    max-width: 72%;
+    flex: 67%;
+}
+.pe-7s-angle-left {
+    color: black;
+    font-size: 24px;
+    height: 0;
+}
+.carousel-control-prev span{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.pe-7s-angle-right {
+    color: black;
+    font-size: 24px;
+    height: 0;
+}
+.carousel-control-next span{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.carousel-indicators li{
+    width: 6px;
+    height: 6px;
+    border-top: 0;
+    border-bottom: 4px solid transparent;
+}
+.carousel-indicators{
+    bottom: -37px;
+    padding-right: 60px;
+    padding-left:65px;
+    width: 150px;
+} 
+.carousel-control-prev,
+.carousel-control-next{
+    width: 40%;
+    align-items: unset;
+}
+.controls{
+    padding-top:42px ;
+    padding-bottom: 43px;
+    background-color: #007d2f;
+    height: 100px;
+}
+.control-left-text{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+ 
+}
+.control-right-text{
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}
+.footer_content {
+    background-color: #000000;
+    padding-top: 109px;
+    padding-bottom: 92px;
+}    
+
+.footer_context h6 {
+    font-family: 'Montserrat Medium';
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.footer_context p {
+    font-family: 'MyRiadPro Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text p {
+    font-family: 'Nunito Regular';
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.footer_text span {
+    font-family: 'Work Sans Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text2 p {
+    font-family: 'Nunito Regular';
+    font-size: 15px;
+    color: #bcbcbc
+}

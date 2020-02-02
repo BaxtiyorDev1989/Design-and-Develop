@@ -1,0 +1,485 @@
+@import 'fonts.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: url(../images/bgr_image.png) no-repeat center /cover;
+    height: 670px;
+}
+
+.header_nav {
+    padding-top: 17px;
+}
+
+.header_link {
+    margin-right: 27px;
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+
+.header_content {
+    padding-top: 76px;
+}
+
+.header_content h1 {
+    font-family: 'Montserrat Medium';
+    font-size: 35px;
+    color: #1d1d1d;
+    text-transform: capitalize
+}
+
+.header_content span {
+    font-family: 'Montserrat Medium';
+    font-size: 36px;
+    color: #1d1d1d;
+    text-transform: lowercase;
+}
+
+.header_content p {
+    font-family: 'Montserrat Thin';
+    font-size: 15.36px;
+    color: #787878;
+    line-height: 23.9px;
+}
+
+.header_content button {
+    margin-top: 56px;
+    padding: 22px 57px 23px 45px;
+    font-family: 'MyRiadPro Regular';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.title_text {
+    padding: 97px 0 42px;
+    background-color: #ffffff;
+}
+
+.title_text h2 {
+    font-family: 'Montserrat Medium';
+    font-size: 34.43px;
+    color: #191919;
+    margin-bottom: 44px;
+}
+
+.title_text p {
+    font-family: 'MyRiadPro Regular';
+    font-size: 13px;
+    color: #787878;
+    line-height: 20.73px;
+    margin-bottom: 54px;
+    text-align: center;
+}
+
+.title_text img {
+    max-width: 220px;
+
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.progress-scale {
+    position: relative;
+    top: 0;
+    background: #f8f9f9;
+}
+
+.box4 {
+    height: 570px;
+}
+
+.progress-skills {
+    padding-top: 166px;
+
+}
+.progress-bar{
+    background-color: #007d2f;
+}
+
+.progress-skills h3 {
+    font-family: 'MyRiadPro Regular';
+    font-size: 30px;
+    color: #171717;
+    line-height: 22px;
+
+}
+
+.progress-skills p {
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    color: #000000;
+    line-height: 9px;
+    margin: 41px 0 20px;
+    font-weight: bold;
+}
+
+.icons {
+    background: #007d2f;
+}
+
+.pe-7s-portfolio {
+    font-size: 48px;
+    color: white;
+}
+
+.pe-7s-clock {
+    font-size: 48px;
+    color: white;
+}
+
+.pe-7s-star {
+    font-size: 48px;
+    color: white;
+}
+
+.pe-7s-like {
+    font-size: 48px;
+    color: white;
+}
+
+.box5 {
+    padding: 70px 0;
+}
+
+.carts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carts h5 {
+    text-align: center;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.carts p {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'Montserrat Medium';
+    margin-bottom: 15px;
+    margin-top: 11px;
+
+}
+
+.pe-7s-look {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+.photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photos {
+    position: relative;
+}
+
+.photos span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.photos span:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.green-line {
+    background: #007d2f;
+    padding-top: 45px;
+    padding-bottom: 40px;
+
+}
+.icons .star i{
+    color: white;
+    margin-bottom: 0;
+}
+
+.text p {
+    font-family: 'Montserrat Medium';
+    color: #ffffff;
+    font-size: 21px;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+
+.video-player h6 {
+    font-family: 'Montserrat Medium';
+    font-size: 43px;
+    color: #191919;
+    /* line-height: 87px; */
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.video-player p {
+    font-family: 'Nunito Regular';
+    font-size: 22px;
+    color: #787878;
+    line-height: 33px;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+.work-process {
+    padding-top: 99px;
+    padding-bottom: 100px;
+
+}
+
+.pic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic span {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pic .rounded-circle {
+    position: absolute;
+    background: #007d2f;
+    bottom: 0;
+    top: 0;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons2 {
+    background: #f5f5f5;
+}
+
+.box6 {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+    padding-right: 143px;
+
+}
+
+.pe-7s-diamond {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-play {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.pe-7s-arc {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-phone {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-joy {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-plane {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-star {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-magic-wand {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.pe-7s-paint-bucket {
+    font-size: 48px;
+    color: #656565;
+    margin-bottom: 30px;
+}
+
+.cardbox h5 {
+    font-family: 'Montserrat Medium';
+    font-size: 11px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cardbox p {
+    font-family: 'Nunito Regular';
+    font-size: 15px;
+    color: #666666;
+    line-height: 23px;
+}
+
+.cardbox {
+    margin-bottom: 50px;
+}
+
+.box7 {
+    height: 500px;
+}
+
+.carousel-caption {
+    position: unset !important;
+}
+
+.karusel {
+    background: #007d2f;
+}
+
+.carousel-indicators {
+    top: 450px;
+}
+.carousel-indicators li{
+    border-radius: 50%;
+    width: 7px !important;
+    height: 7px !important;
+}
+.carousel-inner{
+    top: 198px;
+}
+.carousel-caption p{
+    font-family: 'Montserrat Medium';
+    font-size: 19px;
+    color:#ffffff;
+    text-align:center;
+    line-height: 29px;
+}
+.carousel-caption span{
+    display: block;
+    margin-top: 44px;
+}
+.logos{
+    padding-top: 67px;
+    padding-bottom: 61px;
+}
+.box8 h6{
+    font-family:'Montserrat Medium';
+    font-size: 30px;
+    color: #1d1d1d;
+    margin-bottom: 36px;
+}
+.box8 p{
+    font-family: 'Nunito Regular';
+    font-size: 16px;
+    color: #787878;
+    text-transform:initial;
+    line-height: 24px;
+    text-align: center;
+}
+.text1{
+    padding-bottom: 42px;
+}
+.form{
+    background-color: #f5f5f5;
+    padding-top: 27px;
+    padding-bottom: 100px;
+}
+.form-control.is-invalid{
+    height: 170px;
+    border-color: #ced4da;
+}
+.btn-primary{
+    margin-top: 30px;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 23px 25px 22px 25px;
+    color: #ffffff;
+    background-color: #007d2f ! important;
+    border-color: #007d2f !important; 
+    border-radius: 0;
+}
+.footer{
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 101px;
+    padding-left: 129px;
+    padding-right: 128px;
+}
+.footer h6{
+    font-family:'Montserrat Medium' ;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+.footer p{
+    font-family: 'MyRiadPro Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer_text p{
+    font-family: 'Nunito Regular';
+    color: #bcbcbc;
+    font-size: 15px;
+}
+.footer_text span{
+    font-family: 'Work Sans Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+.footer_text2 p{
+    font-family:'Nunito Regular' ;
+    font-size: 15px;
+    color: #bcbcbc
+
+}

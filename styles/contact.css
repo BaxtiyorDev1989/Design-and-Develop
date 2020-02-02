@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.nav_container {
+    background-color: white;
+}
+
+.nav_link {
+    padding-right: 32px;
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header_box1 {
+    padding-top: 17px;
+    padding-bottom: 18px;
+
+}
+
+.header_menu {
+    margin-bottom: 0;
+}
+
+.nav_link:hover {
+    color: #007d2f;
+    text-decoration: none;
+}
+.info{
+    background-color: #f5f5f5;
+    padding-top: 100px;
+}
+.text__title{
+    font-family:'Montserrat Medium';
+    font-size: 30px;
+    color: #171717;
+    text-transform: capitalize;
+    margin-bottom: 41px;
+}
+.text__description{
+    font-family:'Montserrat Medium';
+    font-size: 16px ;
+    color: #787878;
+    line-height: 24px;
+}
+.text__contacts span{
+    font-family: 'Nunito Regular';
+    color: #171717;
+    font-size: 16px;
+    font-weight: 700;
+    flex-grow: unset;
+}
+.text__contacts{
+    font-family: 'Nunito Regular';
+    font-size:16px ;
+    color: #787878;    
+}
+.form-control{
+    border-color: white; 
+    resize: none;     
+}
+textarea.form-control{
+    height: 170px;
+}
+.btn{
+    padding: 22px 27px 23px 25px;
+    font-family:'Montserrat Medium' ;
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #007d2f;
+}
+.info__map img{
+    margin-top: 100px;
+    margin-bottom: 99px;
+    max-width: 100%;
+}
+.footer_content {
+    background-color: #000000;
+    padding-top: 99px;
+    padding-bottom: 103px;
+    padding-left: 129px;
+    padding-right: 128px;
+}
+
+.footer_content h6 {
+    font-family: 'Montserrat Medium';
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+}
+
+.footer_content p {
+    font-family: 'MyRiadPro Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text p {
+    font-family: 'Nunito Regular';
+    color: #bcbcbc;
+    font-size: 15px;
+}
+
+.footer_text span {
+    font-family: 'Work Sans Regular';
+    font-size: 15px;
+    color: #bcbcbc;
+}
+
+.footer_text2 p {
+    font-family: 'Nunito Regular';
+    font-size: 15px;
+    color: #bcbcbc
+}
