@@ -14,8 +14,25 @@ header {
 
 .header_nav {
     padding-top: 17px;
+    margin-bottom: 75px;
 }
-
+.navbar-toggler{
+    background-color: #959799;
+}
+.navbar{
+    position: fixed;
+    right: 224px;
+    top: 15px;
+}
+.header_link-2{
+    color: #191919;
+    font-family: 'Montserrat Medium';
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.p-4{
+    padding: 0.5rem !important;
+}
 .header_link {
     margin-right: 27px;
     color: #191919;
@@ -29,9 +46,7 @@ header {
     text-decoration: none;
 }
 
-.box2 {
-    padding-top: 76px;
-}
+
 
 .header_content h1 {
     font-family: 'Montserrat Medium';
@@ -481,5 +496,15 @@ header {
     font-family:'Nunito Regular' ;
     font-size: 15px;
     color: #bcbcbc
+}
 
+
+@media(max-width:768px){
+    .nav_content{
+        display: none;
+    }
+    .logotip{
+        position: fixed;
+        top: 20px;
+    }
 }
